@@ -1,6 +1,7 @@
 # MultiChef Telegram Bot
 
 Коротко: простой Telegram-бот для управления меню поваров и оформления заказов (SQLite).
+Поменяйте под ваши задачи
 
 Подготовка и запуск
 
@@ -22,7 +23,6 @@ cp .env.example .env
 3. Запустите бота:
 
 ```bash
-# Рекомендуется запускать `bot.py` (скопировано из `bot.ini`)
 python bot.py
 # или
 nohup python bot.py > bot.log 2>&1 &
